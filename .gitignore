@@ -1,0 +1,9 @@
+node_modules/
+work/
+outputs/
+dist/
+public/media/doodles/*.mov
+public/media/doodles/*.webm
+public/media/riot-games-rgb-logos-web.zip
+*.log
+.DS_Store
