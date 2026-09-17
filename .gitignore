@@ -7,3 +7,4 @@ public/media/doodles/*.webm
 public/media/riot-games-rgb-logos-web.zip
 *.log
 .DS_Store
+pasted-*.png
