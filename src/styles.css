@@ -503,6 +503,7 @@ select {
   display: flex;
   align-items: center;
   gap: 13px;
+  flex-wrap: wrap;
   padding: 14px 5vw;
   background: rgba(13, 12, 20, 0.97);
   border-bottom: 1px solid rgba(184, 237, 123, 0.65);
@@ -993,6 +994,7 @@ select {
 .landing__header-left { gap: 0 !important; }
 .page-transition { position: fixed; z-index: 100; inset: 0; display: grid; place-items: center; pointer-events: none; opacity: 0; background: radial-gradient(circle at 50% 50%,rgba(43,74,142,.78),rgba(5,6,14,.98) 63%); transform: scale(1.12); }
 .page-transition img { position: absolute; bottom: -18vh; left: 50%; width: min(480px,62vw); max-height: 94vh; object-fit: contain; object-position: center bottom; filter: drop-shadow(0 0 38px rgba(89,174,255,.65)) saturate(1.35); transform: translateX(-50%) translateY(30vh) rotate(-7deg); }
+.page-transition img { mask-image: radial-gradient(ellipse at 50% 42%, #000 24%, transparent 72%); }
 .page-transition span { position: relative; color: #d9f59a; font-family: 'Barlow Condensed'; font-size: 12px; letter-spacing: .42em; opacity: 0; }
 .page-transition.is-active { opacity: 1; animation: transition-surge .72s cubic-bezier(.22,1,.36,1) both; }
 .page-transition.is-active img { animation: jinx-transition .72s cubic-bezier(.22,1,.36,1) both; }
@@ -1191,8 +1193,8 @@ select {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  object-position: center 18%;
-  filter: saturate(0.82) contrast(1.1);
+  object-position: center;
+  filter: saturate(0.95) contrast(1.04);
   transition: filter 0.4s;
 }
 .tree-node:hover .tree-node__portrait img {

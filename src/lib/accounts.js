@@ -61,12 +61,7 @@ export const seedHistory = [
   },
 ];
 
-export const CHAMPIONS = [
-  { name: "Jinx", image: "/media/jinx-web-cutout.png" },
-  { name: "Vi", image: "/media/vi-arcane.png" },
-  { name: "Ekko", image: "/media/ekko-reference.jpg" },
-  { name: "Jayce", image: "/media/jayce-reference.jpg" },
-];
+export { CHAMPIONS } from "./characters.js";
 
 export function loadSession(key, fallback) {
   try {

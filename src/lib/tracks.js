@@ -10,13 +10,15 @@
  * Add more tracks by dropping MP3s in public/media/audio/ and listing them
  * here; they do not need `syncVideo`.
  */
+import { CHAMPIONS } from "./characters.js";
+
 export const TRACKS = [
   {
     id: "clip-score",
     title: "Enemy — Arcane Opening Cut",
     artist: "Score from the hero clip · Riot Games",
     src: "/media/audio/arcane-clip-score.mp3",
-    cover: "/media/jinx-web-cutout.png",
+    cover: CHAMPIONS[0].thumbnail,
     syncVideo: true,
   },
 ];

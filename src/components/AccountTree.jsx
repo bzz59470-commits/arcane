@@ -138,7 +138,7 @@ export function AccountTree({ accounts, selectedId, onSelect }) {
           ))}
         </svg>
         {accounts.map((account, index) => {
-          const champion = CHAMPIONS[index % CHAMPIONS.length];
+          const champion = CHAMPIONS.find((item) => item.id === account.championId) || CHAMPIONS[index % CHAMPIONS.length];
           const slot = nodes[index];
           const isSelected = account.id === selectedId;
           return (
@@ -157,7 +157,16 @@ export function AccountTree({ accounts, selectedId, onSelect }) {
               aria-label={`${account.label}, ${account.email}`}
             >
               <div className="tree-node__portrait">
-                <img src={champion.image} alt="" loading="lazy" />
+                <img
+                  src={champion.image}
+                  srcSet={champion.srcSet}
+                  sizes={`(max-width: 760px) calc((100vw - 42px) / 2), ${nodeWidth}px`}
+                  width={480}
+                  height={640}
+                  alt={champion.artwork}
+                  loading="lazy"
+                  decoding="async"
+                />
                 <i className={`tree-node__status tree-node__status--${account.status.toLowerCase()}`} />
               </div>
               <div className="tree-node__details">

@@ -3,6 +3,7 @@ import { Brand } from "./Brand.jsx";
 import { Landing } from "./Landing.jsx";
 import { AccountTree } from "./AccountTree.jsx";
 import { BuyingFeed } from "./BuyingFeed.jsx";
+import { CHAMPIONS } from "../lib/characters.js";
 import {
   ACCOUNTS_KEY,
   HISTORY_KEY,
@@ -27,6 +28,7 @@ function TopBannerForm({ account, onClose, onSave }) {
     if (label.length > 40) return setError("Name is too long (40 characters max).");
     if (!EMAIL_RE.test(email)) return setError("Enter a valid email address.");
     if (!ACCOUNT_TYPES.includes(form.type)) return setError("Pick a valid type.");
+    if (form.championId && !CHAMPIONS.some((item) => item.id === form.championId)) return setError("Pick a valid artwork.");
     onSave({ ...form, label, email, password });
   };
   return (
@@ -52,6 +54,15 @@ function TopBannerForm({ account, onClose, onSave }) {
         <select value={form.type} onChange={(e) => setForm({ ...form, type: e.target.value })}>
           {ACCOUNT_TYPES.map((t) => (
             <option key={t}>{t}</option>
+          ))}
+        </select>
+      </label>
+      <label>
+        Character artwork
+        <select value={form.championId || ""} onChange={(e) => setForm({ ...form, championId: e.target.value })}>
+          <option value="">Automatic</option>
+          {CHAMPIONS.map((character) => (
+            <option key={character.id} value={character.id}>{character.name}</option>
           ))}
         </select>
       </label>
@@ -155,7 +166,7 @@ function PageTransition({ active }) {
   return (
     <div className={`page-transition${active ? " is-active" : ""}`} aria-hidden="true">
       <div className="transition-glow" />
-      <img src="/media/jinx-web-cutout.png" alt="" />
+      <img src={CHAMPIONS[0].image} width={480} height={640} alt="" decoding="async" />
       <span>SHIFTING SIGNAL</span>
     </div>
   );

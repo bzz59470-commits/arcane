@@ -1,0 +1,16 @@
+{
+  "version": "16.18.1",
+  "sourceBase": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/",
+  "characters": [
+    { "id": "jinx", "name": "Jinx", "champion": "Jinx", "skin": 60, "artwork": "Arcane Fractured Jinx", "crop": [350, 0, 845, 660] },
+    { "id": "vi", "name": "Vi", "champion": "Vi", "skin": 48, "artwork": "Arcane Brawler Vi", "crop": [345, 0, 840, 660] },
+    { "id": "ekko", "name": "Ekko", "champion": "Ekko", "skin": 57, "artwork": "Arcane Last Stand Ekko", "crop": [525, 0, 1020, 660] },
+    { "id": "jayce", "name": "Jayce", "champion": "Jayce", "skin": 35, "artwork": "Arcane Survivor Jayce", "crop": [360, 0, 855, 660] },
+    { "id": "caitlyn", "name": "Caitlyn", "champion": "Caitlyn", "skin": 50, "artwork": "Arcane Commander Caitlyn", "crop": [350, 0, 845, 660] },
+    { "id": "viktor", "name": "Viktor", "champion": "Viktor", "skin": 24, "artwork": "Arcane Savior Viktor", "crop": [320, 0, 815, 660] },
+    { "id": "mel", "name": "Mel", "champion": "Mel", "skin": 1, "artwork": "Arcane Councilor Mel", "crop": [350, 0, 845, 660] },
+    { "id": "heimerdinger", "name": "Heimerdinger", "champion": "Heimerdinger", "skin": 33, "artwork": "Arcane Professor Heimerdinger", "crop": [400, 0, 895, 660] },
+    { "id": "warwick", "name": "Warwick", "champion": "Warwick", "skin": 56, "artwork": "Arcane Vander Warwick", "crop": [340, 0, 835, 660] },
+    { "id": "singed", "name": "Singed", "champion": "Singed", "skin": 28, "artwork": "Arcane Shimmer Lab Singed", "crop": [475, 25, 970, 685] }
+  ]
+}

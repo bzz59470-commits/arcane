@@ -1,0 +1,212 @@
+[
+  {
+    "id": "jinx",
+    "name": "Jinx",
+    "champion": "Jinx",
+    "skin": 60,
+    "artwork": "Arcane Fractured Jinx",
+    "crop": [
+      350,
+      0,
+      845,
+      660
+    ],
+    "image": "/media/characters/jinx-480.webp",
+    "srcSet": "/media/characters/jinx-240.webp 240w, /media/characters/jinx-480.webp 480w",
+    "wide": "/media/characters/jinx-wide.webp",
+    "thumbnail": "/media/characters/jinx-thumb.webp",
+    "source": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Jinx_60.jpg",
+    "sourceSha256": "ac910e9a07ade2a9b9e6363bb512ba4b69e2118221d8b30379c22491bc789904",
+    "sourceWidth": 1215,
+    "sourceHeight": 717
+  },
+  {
+    "id": "vi",
+    "name": "Vi",
+    "champion": "Vi",
+    "skin": 48,
+    "artwork": "Arcane Brawler Vi",
+    "crop": [
+      345,
+      0,
+      840,
+      660
+    ],
+    "image": "/media/characters/vi-480.webp",
+    "srcSet": "/media/characters/vi-240.webp 240w, /media/characters/vi-480.webp 480w",
+    "wide": "/media/characters/vi-wide.webp",
+    "thumbnail": "/media/characters/vi-thumb.webp",
+    "source": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Vi_48.jpg",
+    "sourceSha256": "6f7a07ed8b0ab0ff0cf637ff8989d7348d0b77fdcf1beff67881501b16371daf",
+    "sourceWidth": 1215,
+    "sourceHeight": 717
+  },
+  {
+    "id": "ekko",
+    "name": "Ekko",
+    "champion": "Ekko",
+    "skin": 57,
+    "artwork": "Arcane Last Stand Ekko",
+    "crop": [
+      525,
+      0,
+      1020,
+      660
+    ],
+    "image": "/media/characters/ekko-480.webp",
+    "srcSet": "/media/characters/ekko-240.webp 240w, /media/characters/ekko-480.webp 480w",
+    "wide": "/media/characters/ekko-wide.webp",
+    "thumbnail": "/media/characters/ekko-thumb.webp",
+    "source": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Ekko_57.jpg",
+    "sourceSha256": "4dbcc01af18b85bbb4fbfcc46cda5598a4c27b9438b82b1ff9b9ae4567115ade",
+    "sourceWidth": 1215,
+    "sourceHeight": 717
+  },
+  {
+    "id": "jayce",
+    "name": "Jayce",
+    "champion": "Jayce",
+    "skin": 35,
+    "artwork": "Arcane Survivor Jayce",
+    "crop": [
+      360,
+      0,
+      855,
+      660
+    ],
+    "image": "/media/characters/jayce-480.webp",
+    "srcSet": "/media/characters/jayce-240.webp 240w, /media/characters/jayce-480.webp 480w",
+    "wide": "/media/characters/jayce-wide.webp",
+    "thumbnail": "/media/characters/jayce-thumb.webp",
+    "source": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Jayce_35.jpg",
+    "sourceSha256": "15cf77405c99123d7ac5261ca7768881f3cfd2e018bc0bd2a216540ff429fbc2",
+    "sourceWidth": 1215,
+    "sourceHeight": 717
+  },
+  {
+    "id": "caitlyn",
+    "name": "Caitlyn",
+    "champion": "Caitlyn",
+    "skin": 50,
+    "artwork": "Arcane Commander Caitlyn",
+    "crop": [
+      350,
+      0,
+      845,
+      660
+    ],
+    "image": "/media/characters/caitlyn-480.webp",
+    "srcSet": "/media/characters/caitlyn-240.webp 240w, /media/characters/caitlyn-480.webp 480w",
+    "wide": "/media/characters/caitlyn-wide.webp",
+    "thumbnail": "/media/characters/caitlyn-thumb.webp",
+    "source": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Caitlyn_50.jpg",
+    "sourceSha256": "88a9b61a4445d4589f0b88c48774c3a7abaca7d3e3e01a1d61557098c4b35d7b",
+    "sourceWidth": 1215,
+    "sourceHeight": 717
+  },
+  {
+    "id": "viktor",
+    "name": "Viktor",
+    "champion": "Viktor",
+    "skin": 24,
+    "artwork": "Arcane Savior Viktor",
+    "crop": [
+      320,
+      0,
+      815,
+      660
+    ],
+    "image": "/media/characters/viktor-480.webp",
+    "srcSet": "/media/characters/viktor-240.webp 240w, /media/characters/viktor-480.webp 480w",
+    "wide": "/media/characters/viktor-wide.webp",
+    "thumbnail": "/media/characters/viktor-thumb.webp",
+    "source": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Viktor_24.jpg",
+    "sourceSha256": "38c71ed9d3cef9cf0b4685aa15c79a6e4132e7699085c1a22537130138d4fa17",
+    "sourceWidth": 1215,
+    "sourceHeight": 717
+  },
+  {
+    "id": "mel",
+    "name": "Mel",
+    "champion": "Mel",
+    "skin": 1,
+    "artwork": "Arcane Councilor Mel",
+    "crop": [
+      350,
+      0,
+      845,
+      660
+    ],
+    "image": "/media/characters/mel-480.webp",
+    "srcSet": "/media/characters/mel-240.webp 240w, /media/characters/mel-480.webp 480w",
+    "wide": "/media/characters/mel-wide.webp",
+    "thumbnail": "/media/characters/mel-thumb.webp",
+    "source": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Mel_1.jpg",
+    "sourceSha256": "3456cd74aa8685016dbc429df28015853f6e40dd8d057ac311eeb6173bbb9798",
+    "sourceWidth": 1215,
+    "sourceHeight": 717
+  },
+  {
+    "id": "heimerdinger",
+    "name": "Heimerdinger",
+    "champion": "Heimerdinger",
+    "skin": 33,
+    "artwork": "Arcane Professor Heimerdinger",
+    "crop": [
+      400,
+      0,
+      895,
+      660
+    ],
+    "image": "/media/characters/heimerdinger-480.webp",
+    "srcSet": "/media/characters/heimerdinger-240.webp 240w, /media/characters/heimerdinger-480.webp 480w",
+    "wide": "/media/characters/heimerdinger-wide.webp",
+    "thumbnail": "/media/characters/heimerdinger-thumb.webp",
+    "source": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Heimerdinger_33.jpg",
+    "sourceSha256": "c02cc67675eb655e8382fa695c4c1a80780394999e1726f3c4ce1845ac8288f5",
+    "sourceWidth": 1215,
+    "sourceHeight": 717
+  },
+  {
+    "id": "warwick",
+    "name": "Warwick",
+    "champion": "Warwick",
+    "skin": 56,
+    "artwork": "Arcane Vander Warwick",
+    "crop": [
+      340,
+      0,
+      835,
+      660
+    ],
+    "image": "/media/characters/warwick-480.webp",
+    "srcSet": "/media/characters/warwick-240.webp 240w, /media/characters/warwick-480.webp 480w",
+    "wide": "/media/characters/warwick-wide.webp",
+    "thumbnail": "/media/characters/warwick-thumb.webp",
+    "source": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Warwick_56.jpg",
+    "sourceSha256": "fc29246c15f53b37f32d911266f39f68c792d5733ce0e2e81e877ba55fb98612",
+    "sourceWidth": 1215,
+    "sourceHeight": 717
+  },
+  {
+    "id": "singed",
+    "name": "Singed",
+    "champion": "Singed",
+    "skin": 28,
+    "artwork": "Arcane Shimmer Lab Singed",
+    "crop": [
+      475,
+      25,
+      970,
+      685
+    ],
+    "image": "/media/characters/singed-480.webp",
+    "srcSet": "/media/characters/singed-240.webp 240w, /media/characters/singed-480.webp 480w",
+    "wide": "/media/characters/singed-wide.webp",
+    "thumbnail": "/media/characters/singed-thumb.webp",
+    "source": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Singed_28.jpg",
+    "sourceSha256": "20f2b66a6fb69dfac700148987ce62a3f643faf2dd27d5c15ed08cffbbbe0e96",
+    "sourceWidth": 1215,
+    "sourceHeight": 717
+  }
+]
