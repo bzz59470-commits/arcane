@@ -22,6 +22,8 @@ function funpayApiPlugin() {
 
 export default defineConfig({
   plugins: [react(), funpayApiPlugin()],
-  server: { host: true, port: 5173 },
-  preview: { host: true, port: 5173 },
+  // allowedHosts: the IDE preview reaches the dev server through a reverse proxy with a
+  // foreign Host header; without this Vite answers 403 and the preview is blank.
+  server: { host: true, port: 5173, allowedHosts: true },
+  preview: { host: true, port: 5173, allowedHosts: true },
 });
